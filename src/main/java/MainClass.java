@@ -19,6 +19,7 @@ public class MainClass {
         System.out.println();
 
         ReadCSV csvChannel = new ReadCSV();
+
         FileList fileList = csvChannel.read(CSVfilename);
         csvChannel.getCSVstatus();
         if (csvChannel.isRead()) {
