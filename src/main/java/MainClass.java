@@ -9,7 +9,7 @@ public class MainClass {
         int downloaded = 0;
         StringBuilder notDownloaded = new StringBuilder();
         if (args.length != 2) {
-            System.out.println("Wrong number of arguments.\n !Notice: -File name -Directory");
+            System.out.println("Wrong number of arguments.\n !Notice: Filename Directory");
             System.exit(0);
         }
         CSVfilename = args[0];
